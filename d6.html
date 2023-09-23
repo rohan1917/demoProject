@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+</head>
+<body>
+    <!-- Lists -->
+    <h5>Lists:</h5>
+    <p>Ordered List</p>
+    <p>Unordered List</p>
+    <p>Description List</p>
+
+
+    <h6>Ordered List</h6>
+    <!-- ol: ordered list -->
+    <!-- type: 1 (default), a, A, i, I -->
+    <ol type="a" start="999">
+        <!-- li: list items -->
+        <li>Java</li>
+        <li>JavScript</li>
+        <li>Php</li>
+        <li>C</li>
+        <li>C++</li>
+    </ol>
+
+
+
+    <h6>Unordered List</h6>
+    <!-- ul: unordered list -->
+    <!-- type: disc (default), square, circle, none -->
+    <ul type="none">
+        <li>Java</li>
+        <li>JavScript</li>
+        <li>Php</li>
+        <li>C</li>
+        <li>C++</li>
+    </ul>
+
+ 
+
+    <!-- Nested Orderd Lists -->
+    <h6> Nested Orderd List</h6>
+    <ol type="a">
+        <li>java</li>
+        <li>JavScript</li>
+        <li>Php</li>
+        <ol type="i">
+            <li>py</li>
+            <li>aws</li>
+        </ol>
+        <li>hadoop</li>
+    </ol>
+
+
+       <!-- Nested Unorderd Lists -->
+       <h6> Nested Unorderd List</h6>
+       <ul>
+        <li>java</li>
+        <li>JavScript</li>
+        <li>Php</li>
+        <ul>
+            <li>py</li>
+            <li>aws</li>
+        </ul>
+        <li>hadoop</li>
+       </ul>
+
+
+       <!-- Nested Combination of OL & UL -->
+       <h6> Nested Combination of OL & UL</h6>
+       <ol>
+        <li>Java</li>
+        <li>JavScript</li>
+        <ul>
+            <li>py</li>
+            <li>php</li>
+            <ol>
+                <li>c</li>
+                <li>C++</li>
+                <ul>
+                    <li>aws</li>
+                </ul>
+            </ol>
+        </ul>
+       </ol>
+
+       <!-- Description List -->
+       <h6>Description List</h6>
+       <dl>
+        <!-- dt: Description Term -->
+        <dt><b><u>MERN:</u></b></dt>
+        <!-- dd: Description Definition -->
+        <dd>Its a web tech</dd>
+
+        <dt>Java:</dt>
+        <dd>Cross Platform, oops concepts</dd>
+
+        <dt>ML:</dt>
+        <dd>Machine Learning</dd>
+       </dl>
+</body>
+</html>
